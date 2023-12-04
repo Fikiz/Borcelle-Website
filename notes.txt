@@ -1,0 +1,8 @@
+/* 'Dancing Script', cursive;  Font */ Font for main page
+/*  #D1BAA4  Co lor */ color for main page
+
+
+/fonts for shop
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;

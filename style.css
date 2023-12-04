@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ephesis&display=swap');
-/* 'Dancing Script', cursive;  Font */
-/*  #D1BAA4  Co lor */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,700;0,6..12,800;1,6..12,200;1,6..12,300;1,6..12,700&family=Oswald:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+
 
 
 * {
@@ -106,7 +106,7 @@ img {
     margin-left: -60px;
 }
 #header .header h3{
-     font-family: 'Dancing Script', cursive;  
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     width:fit-content;
     position: relative;
@@ -317,6 +317,37 @@ form .btn {
     margin-top: 20px;
 }
 
+/* ========= Shop Section ========= */
+#header-women {
+    background-image: url(./images/women-2.png); 
+	background-size: cover;
+	background-position: top center;
+}
+#header-women .header-women {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	
+}
+#header-women .header-text{
+    text-align: center;
+    margin-top: 10%;
+    /* margin-left: -60px; */
+}
+#header-women .header-women h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    width:fit-content;
+    position: relative;
+}
+ #header-women .header-women h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    width:fit-content;
+    position: relative;
+    margin: 0% -10%;
+    
+} 
 
 
 
@@ -328,9 +359,14 @@ form .btn {
 
 
 
-
-
-
+/* ======= KEYFRAMES AND ANIMATIONS ====== */
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+}
 
 
 
@@ -410,14 +446,15 @@ form .btn {
         margin: 3% 5%;
         font-size: 20px;
     }
-    .about-col-1, .about-col-2{
-        flex-basis: 100%;
-    }
+  
+
     .about-col-1{
        font-size: 14px;
+       flex-basis: 100%;
     }
     .about-col-2{
         margin-bottom: 20%;
+        flex-basis: 100%;
      }
     .about-col-2 img{
         width: 70%;
