@@ -38,11 +38,7 @@ span{
     padding: 10px 10%;
      
 }
-img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
+
 /* Pre Header / Nav Bar */
 #pre-header {
     background: #fff;
@@ -63,6 +59,7 @@ img {
 }
 #pre-header nav ul {
     display: flex;
+   
 }
 #pre-header nav ul li a {
     display: inline-block;
@@ -72,6 +69,7 @@ img {
     border: 3px solid transparent;
     text-transform: uppercase;
     transition: 0.2s;
+   
 }
 #pre-header nav ul li a:hover,
 #pre-header nav ul li a:visited
@@ -317,6 +315,8 @@ form .btn {
     margin-top: 20px;
 }
 
+
+
 /* ========= Shop Section ========= */
 #header-women {
     background-image: url(./images/women-2.png); 
@@ -346,12 +346,11 @@ form .btn {
     width:fit-content;
     position: relative;
     margin: 0% -10%;
-    
 } 
 
-
-
-
+ .fa-shopping-cart{
+    width: 10%;
+}
 
 
 
